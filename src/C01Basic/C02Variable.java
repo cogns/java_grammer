@@ -102,7 +102,7 @@ public class C02Variable {
 //                상수는 final 키워드를 통해 표현
 //                일반적으로 상수값은 대문자로 표기
                 final int AGES = 20;
-            //    AGES = 20; 이렇게 안됌.
+            //    a1 은 재할당이 되는데 final이 붙은 AGES = 20; 은 재할당이 안됌.
 
 
     }

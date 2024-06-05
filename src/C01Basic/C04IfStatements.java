@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class C04IfStatements {
     public static void main (String[] args) {
 
-////        도어락키 if문
-//        int answer = 1234;
-//        Scanner sc = new Scanner(System.in);
-//        int input = sc.nextInt();
-//
-//        if(answer == input){
-//            System.out.println("문이 열렸습니다.");
-//        } else {
-//            System.out.println("비밀번호가 틀렸습니다.");
-//        }
+//        도어락키 if문
+        int answer = 1234;
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
+
+        if(answer == input){
+            System.out.println("문이 열렸습니다.");
+        } else {
+            System.out.println("비밀번호가 틀렸습니다.");
+        }
 
 ////        알파벳이 소문자인지 대문자인지 판별하는 프로그램
 ////        (힌트) 묵시적 타입변환 'b'>'a'
@@ -50,7 +50,41 @@ public class C04IfStatements {
 ////        모든 if문이 충족되어 츌력 될 가능성이 존재.
 
 
+////        삼황연산자
+//          간단한 if / else 문은 삼항 연산자를 이용하여 간결하게 표현
+//        int answer = 1234;
+//        System.out.println("비밀번호를 입력하시오");
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+//        String result = (answer == input) ? "문이 열렸습니다." : "비밀번호가 틀렸습니다.";;
+//        System.out.println(result);
+
+
+////        swich문 : if else if 등의 조건물을 가독성있게 표현 구문
+//        System.out.println("원하시는 서비스 번호를 입력하시오.");
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+////        1번을 누르면 대출업무입니다. , 2번을 누르면 예금업무입니다. , 3번을 누르면 적금업무입니다.
+////        0번을 누르면 상담사연결입니다. 그 외는 잘못누르셨습니다.
+//        switch (input){
+//            case 1 :
+//                System.out.println("대출업무입니다.");
+//                break;
+//            case 2 :
+//                System.out.println("예금업무입니다.");
+//                break;
+//            case 3 :
+//                System.out.println("적금업무입니다.");
+//                break;
+//            case 0 :
+//                System.out.println("상담사연결입니다.");
+//                break;
+//            default:
+//                System.out.println("잘못누르셨습니다.");
+//                break;
+//
+        }
 
 
     }
-}
+

@@ -16,7 +16,7 @@ public class C01InputOutput {
 //            System.out.println(20+10);
 
 //        입력 : System.in (키보드입력) + Scanner(입력을 위한 클래스)
-            Scanner myScanner = new Scanner(System.in);
+//            Scanner myScanner = new Scanner(System.in);
 //            System.out.println("아무 문자열을 입력해 주세요.");
 ////            nextLine은 입력 받은 데이터를 한 줄 읽어서 String 리턴
 //            String inputs = myScanner.nextLine();
@@ -30,12 +30,12 @@ public class C01InputOutput {
 //        double input_double = myScanner.nextDouble();
 //        System.out.println(input_double);
 
-        System.out.println("true/false를 입력해 주세요.");
-        boolean input_boolean = myScanner.nextBoolean();
-        System.out.println(input_boolean);
-
-//        java밖의 시스템이므로 입출력 시스템 메모리 해제 해주는 것이 좋다.
-        myScanner.close();
+//        System.out.println("true/false를 입력해 주세요.");
+//        boolean input_boolean = myScanner.nextBoolean();
+//        System.out.println(input_boolean);
+//
+////        java밖의 시스템이므로 입출력 시스템 메모리 해제 해주는 것이 좋다.
+//        myScanner.close();
 
 
 
