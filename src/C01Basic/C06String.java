@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class C06String {
     public static void main (String[] args) {
-////        참조자료형 : 기본 자료형ㅇㄹ 제외한 모든 자료형
+////        참조자료형 : 기본 자료형을 제외한 모든 자료형
 ////        WrapperClass : 기본형 타입을 Wrapping한 클래스
 ////        int와 Integer간의 형변환
 //        int a = 10;
@@ -31,15 +31,15 @@ public class C06String {
 
 
 
-//        String 변수 생성방법
+////        String 변수 생성방법
 //        String st1 = new String( "hello");
 ////        리터럴방식 : 권장하는 방식
 ////        문자열 pool 통해 성능향상
 //        String st2 = "hello";
 //        String st3 = new String("hello");
 //        String st4 = "hello";
-//        System.out.println(st1==st3);
-//        System.out.println(st2==st4);
+//        System.out.println(st1==st3); //false
+//        System.out.println(st2==st4); //ture
 
 //        String문자열 비교는 equals(그냥 외워.)
 //        System.out.println(st1.equals(st3));
