@@ -7,7 +7,7 @@ import static java.lang.Long.reverse;
 import static java.lang.Long.sum;
 
 public class C05LoopStatements {
-    public static void main (String[] args){
+    public static void main(String[] args) {
 ////        2부터 10까지 출력하는 while문
 //
 //        int a = 2;
@@ -102,14 +102,19 @@ public class C05LoopStatements {
 
 ////           소수구하기 : 1과 자기자신을 제외한 숫자로 나누어지지 않는 수
 ////           1~24까지 수 중에 소수를 출력
-//        for(int input = 2; input<=24; input++){
+//        for (int input = 2; input <= 24; input++) {
 //            boolean tureOrNot = false;
-//            for(int i = 2; i<a; i++){
-//            if(a%i ==0){
-//                tureOrNot = true;
-//                break;
-//
-//        }
+//            for (int i = 2; i < a; i++) {
+//                if (a % i == 0) {
+//                    tureOrNot = true;
+//                    break;
+//                }
+//            }
+//            if (tureOrNot == false) {
+//                System.out.println("소수입니다.");
+//            } else {
+//                System.out.println("소수가 아닙니다.");
+//            }
 
 
 ////              사용자가 입력한 특정값이 소수인지 아닌지
@@ -126,6 +131,7 @@ public class C05LoopStatements {
 //        }else {
 //            System.out.println("소수가 아닙니다.");
 //        }
+
 
 ////        continue : 그냥 가독성이 더 좋아진다. 그게 끝. 하지만 코드가 복잡해지면 언젠가는 쓰인다.
 //        for(int i = 1; i<11; i++){
@@ -206,9 +212,9 @@ public class C05LoopStatements {
 //        System.out.println(arr[0]); // 여기서 0번째는 {1,2,3}
 //        System.out.println(arr[1][3]); // 여기서 1번쨰 배열에 3번째 값 = 6
 
-
+//
 ////        라벨문 활용해서 값찾기
-////        11을 찾으면 3,1에 11이 있습니다. 라고 출력
+////        11을 찾으면 2,3에 11이 있습니다. 라고 출력
 //        int[][] arr = {{1,2,3}, {4,5,11}, {7,8,9}, {10,11,12}};
 //        int target = 11;
 //        loop1:
@@ -222,5 +228,5 @@ public class C05LoopStatements {
 //            }
 //        }
 
+        }
     }
-}

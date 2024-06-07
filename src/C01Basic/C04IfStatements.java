@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class C04IfStatements {
     public static void main (String[] args) {
 
-//        도어락키 if문
-        int answer = 1234;
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-
-        if(answer == input){
-            System.out.println("문이 열렸습니다.");
-        } else {
-            System.out.println("비밀번호가 틀렸습니다.");
-        }
+////        도어락키 if문
+//        int answer = 1234;
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+//
+//        if(answer == input){
+//            System.out.println("문이 열렸습니다.");
+//        } else {
+//            System.out.println("비밀번호가 틀렸습니다.");
+//        }
 
 ////        알파벳이 소문자인지 대문자인지 판별하는 프로그램
 ////        (힌트) 묵시적 타입변환 'b'>'a'

@@ -82,27 +82,27 @@ public class C02Variable {
 ////                명시적 타입변환
 //                System.out.println((int)'b');
 
-                int a = 1;
-                int b = 4;
-                int c = 1/4;
-//                int/int이므로 결과값을 int로 판단하여 소수점 절사
-//                두 값중에 한 값만이라도 double로 명시적 형변환 시켜주면 결과값 double
-                double d = 1/4;
-                System.out.println(c);
-                System.out.println(d);
-
-
-//                변수와 상수
-                int a1 = 10;
-//                변수값 재할당
-                a1 = 20;
-                System.out.println(a1);
-
-//                상수는 초기화 이후에 값이 재할당되는것이 불가능
-//                상수는 final 키워드를 통해 표현
-//                일반적으로 상수값은 대문자로 표기
-                final int AGES = 20;
-            //    a1 은 재할당이 되는데 final이 붙은 AGES = 20; 은 재할당이 안됌.
+//                int a = 1;
+//                int b = 4;
+//                int c = 1/4;
+////                int/int이므로 결과값을 int로 판단하여 소수점 절사
+////                두 값중에 한 값만이라도 double로 명시적 형변환 시켜주면 결과값 double
+//                double d = 1/4;
+//                System.out.println(c);
+//                System.out.println(d);
+//
+//
+////                변수와 상수
+//                int a1 = 10;
+////                변수값 재할당
+//                a1 = 20;
+//                System.out.println(a1);
+//
+////                상수는 초기화 이후에 값이 재할당되는것이 불가능
+////                상수는 final 키워드를 통해 표현
+////                일반적으로 상수값은 대문자로 표기
+//                final int AGES = 20;
+//            //    a1 은 재할당이 되는데 final이 붙은 AGES = 20; 은 재할당이 안됌.
 
 
     }
