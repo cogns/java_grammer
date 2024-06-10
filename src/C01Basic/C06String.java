@@ -62,9 +62,9 @@ public class C06String {
 //        System.out.println(st1.contains("hello"));
 //        System.out.println(st1.contains("world"));
 
-//        chartAt : 특정 index의 문자(char)값을 리턴
+////        chartAt : 특정 index의 문자(char)값을 리턴
 //        String  st = "abcdefabcdef";
-//        char ch1 = st.charAt(1);
+//        char ch1 = st.charAt(2);
 //        System.out.println(ch1);
 ////        위의 문자열에 a의 개수가 몇개인지 count / for문과 charAt, langth() 사용
 //        int count = 0;
@@ -245,7 +245,7 @@ public class C06String {
 ////        StringBuilder는 스레드 safe X
 //        StringBuilder sb2 = new StringBuilder();
 //        sb2.append("hello");
-//        sb2.append("\n"); //줄바꿈
+////        sb2.append("\n"); //줄바꿈
 //        sb2.append("world");
 //
 //        System.out.println(sb2);
