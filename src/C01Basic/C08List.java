@@ -87,8 +87,9 @@ public class C08List {
 
 ////        이중 리스트(리스트 안에 리스트)
 //        List<List<Integer>> myList = new ArrayList<>();
+//        [[1,2,3],[1,2], [5,6], [4]]
 //        myList.add(new ArrayList<>());
-//        myList.add(new ArrayList<>());
+//        myList.add(new ArrayList<>()); //리스트 명은 안써도 무관.
 //        myList.get(0).add(10);
 //        myList.get(0).add(20);
 //        myList.get(1).add(1);
@@ -103,7 +104,7 @@ public class C08List {
 //        myList2.add(new int[]{1,2});
 //        myList2.add(new int[]{10,20,30});
 //        myList2.add(new int[]{100,200,300,400});
-        
+
 ////        리스트 정렬 : Collections.sort(), 리스트객체.sort()
 //        List<Integer> myList = new ArrayList<>();
 //        myList.add(5);

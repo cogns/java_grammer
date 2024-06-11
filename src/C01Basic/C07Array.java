@@ -242,6 +242,7 @@ public class C07Array {
 //        arr[1][0] = 4;
 //        arr[1][1] = 5;
 //        arr[1][2] = 6;
+//        System.out.println(Arrays.deepToString(arr));
 //
 ////        리터럴 방식으로 할당
 //        int[][] arr2 = {{1,2,3}, {4,5,6}};
