@@ -57,13 +57,13 @@ public class C10Set {
 //        }
 //        System.out.println(answer);
 
-//        집합관련함수 : 교집합(retainAll), 합집합(addAll), 차집합(removeAll)
-        Set<String> set1 = new HashSet<>(Arrays.asList("java", "python", "javascript"));
-        Set<String> set2 = new HashSet<>(Arrays.asList("java", "html", "css"));
+////        집합관련함수 : 교집합(retainAll), 합집합(addAll), 차집합(removeAll)
+//        Set<String> set1 = new HashSet<>(Arrays.asList("java", "python", "javascript"));
+//        Set<String> set2 = new HashSet<>(Arrays.asList("java", "html", "css"));
 
-//        set1.retainAll(set2);
-//        set1.addAll(set2);
-//        set1.removeAll(set2);
+//        set1.retainAll(set2); //[java]
+//        set1.addAll(set2); // [python, css, java, html, javascript]
+//        set1.removeAll(set2); //[python, javascript]
 //        System.out.println(set1);
 
 ////        LinkedHashSet, TreeSet
