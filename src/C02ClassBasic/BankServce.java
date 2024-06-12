@@ -44,6 +44,8 @@ public class BankServce {
                 }
 
             } else if (input == 3) {
+                System.out.println("계좌번호를 입력해주세요.");
+                String accountNumber = sc.nextLine();
                 System.out.println("얼마 출금하시겠어요?\n");
                 int money = Integer.parseInt(sc.nextLine());
                 for (int i=0; i<bankAccounts.size(); i++){
@@ -83,11 +85,11 @@ public class BankServce {
 }
 
 class BankAccount{
-    private String accountNumber;
+    private String accountNumber; //계좌번호 생성
 
-    private int balance;
+    private int balance; //잔액 생성
 
-    BankAccount(String accountNumber){
+    BankAccount(String accountNumber){          //생성자
         this.accountNumber = accountNumber;
     }
 
@@ -100,12 +102,12 @@ class BankAccount{
     }
 
 
-    public void deposit(int money){
+    public void deposit(int money){     //입금 메소드
         this.balance += money;
         System.out.println(money + "원 입금 되었습니다.");
         System.out.println("현재 잔액은 "+ this.balance + "원 입니다.");
     }
-    public void withdrow(int money){
+    public void withdrow(int money){    //출금 메소드
         if (this.balance< money){
             System.out.println("잔액 부족입니다.");
             System.out.println("현재 잔액은 "+ this.balance + "원 입니다.");
@@ -117,7 +119,7 @@ class BankAccount{
 
     }
 
-    public void transfer(int money, BankAccount bankAccount){
+    public void transfer(int money, BankAccount bankAccount){   //송금 메소드
         this.balance -= money;
         bankAccount.deposit(money);
     }

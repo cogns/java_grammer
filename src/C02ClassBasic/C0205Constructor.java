@@ -27,10 +27,6 @@ public class C0205Constructor {
         Calendar(){
         }
 
-        public String getYear() {
-            return year;
-        }
-
 //        public void setYear(String year) {
 //            this.year = year;
 //        }
@@ -42,6 +38,10 @@ public class C0205Constructor {
 //        public void setDay(String day) {
 //            this.day = day;
 //        }
+
+        public String getYear() {
+            return year;
+        }
 
         public String getMonth() {
             return month;
