@@ -55,23 +55,24 @@ public class BankServce {
                 }
 
 
-            } else if (input == 4) {
-                System.out.println("본인 계좌번호를 입력해 주세요.");
+            } else if( input == 4){
+                System.out.println("본인 계좌번호를 입력하세요");
                 String myNumber = sc.nextLine();
-                System.out.println("상대방 계좌번호를 입력해 주세요.");
+                System.out.println("상대방 계좌번호를 입력하세요");
                 String yourNumber = sc.nextLine();
-                System.out.println("얼마 입금하시겠습니까?");
+                System.out.println("얼마 입금하겠습니까?");
                 int money = Integer.parseInt(sc.nextLine());
                 BankAccount myAccount = null;
                 BankAccount yourAccount = null;
-                for (int i=0; i<bankAccounts.size(); i++){
-                    if (bankAccounts.get(i).getAccountNumber().equals(myNumber)){
+                for(int i=0; i<bankAccounts.size(); i++){
+                    if(bankAccounts.get(i).getAccountNumber().equals(myNumber)){
                         myAccount = bankAccounts.get(i);
                     }
-                    if (bankAccounts.get(i).getAccountNumber().equals(yourNumber)){
+                    if(bankAccounts.get(i).getAccountNumber().equals(yourNumber)){
                         yourAccount = bankAccounts.get(i);
                     }
-                }myAccount.transfer(money, yourAccount);
+                }
+                myAccount.transfer(money, yourAccount);
 
 
             }
@@ -81,10 +82,16 @@ public class BankServce {
 
 
 
+
+
+
+
+
     }
 }
 
 class BankAccount{
+
     private String accountNumber; //계좌번호 생성
 
     private int balance; //잔액 생성
@@ -127,4 +134,12 @@ class BankAccount{
 
 
 
-}
+
+
+
+    }
+
+
+
+
+
