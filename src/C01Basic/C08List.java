@@ -36,6 +36,7 @@ public class C08List {
 //        myList.add(10);
 //        myList.add(20);
 //        System.out.println(myList);
+
 ////        add(index,값) : 중간에 값 삽입
 //        myList.add(0,30);
 //        System.out.println(myList);
@@ -87,7 +88,7 @@ public class C08List {
 
 ////        이중 리스트(리스트 안에 리스트)
 //        List<List<Integer>> myList = new ArrayList<>();
-//        [[1,2,3],[1,2], [5,6], [4]]
+////        [[1,2,3],[1,2], [5,6], [4]]
 //        myList.add(new ArrayList<>());
 //        myList.add(new ArrayList<>()); //리스트 명은 안써도 무관.
 //        myList.get(0).add(10);

@@ -25,7 +25,7 @@ public class C0206RecursiveBasic {
 //        }
 //        System.out.println(b);
 
-        System.out.println(fibonacci(8));
+        System.out.println(fibonacci(100));
 
     }
 

@@ -8,7 +8,7 @@ public class C0207RecurCombiPermu {
     //    static List<Inteer> myList;
 //
 //    static List<List<Integer>> answer;
-//    static int count;g
+//    static int count;
     public static void main(String[] args) {
 
 //        myList로 만들수 있는 2개짜리 숫자조합을 이중리스트에 담기

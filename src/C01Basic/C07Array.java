@@ -6,7 +6,8 @@ import java.util.Comparator;
 public class C07Array {
     public static void main(String[] args) {
 ////        배열 표현식1 : 리터럴방식
-////        in[] intArr1 = {1, 2, 3, 4, 5};
+//        int[] intArr1 = {1, 2, 3, 4, 5};
+//        System.out.println(Arrays.toString(intArr1));
 //
 ////        배열 표현식2 : 배열 선언 후 할당 방식
 //        int[] intArr2 = new int[5];
@@ -14,7 +15,7 @@ public class C07Array {
 //        intArr2[1] = 2;
 //        intArr2[2] = 3;
 //        intArr2[3] = 4;
-//        System.out.println(intArr2[4]); //0으로 초기화
+////        System.out.println(intArr2[4]); //0으로 초기화
 //        for(int i=0; i<intArr2.length; i++){
 //            System.out.println(intArr2[i]);
 //        }
